@@ -1,5 +1,8 @@
 package com.macf.projetos.entity.enums;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Status de um projeto")
 public enum ProjectStatus {
 
     EM_ANALISE,
